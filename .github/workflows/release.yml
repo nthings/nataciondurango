@@ -5,7 +5,7 @@ on:
       - main
 
 jobs:
-  docker:
+  heroku:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

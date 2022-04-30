@@ -27,7 +27,11 @@ app.use(
 
 app.use(Router);
 
-createConnection(dbConfig)
+app.listen(PORT, () => {
+  console.log("Server is running on port", PORT);
+});
+
+/* createConnection(dbConfig)
   .then(() => {
     app.listen(PORT, () => {
       console.log("Server is running on port", PORT);
@@ -36,4 +40,4 @@ createConnection(dbConfig)
   .catch((err) => {
     console.log("Unable to connect to db", err);
     process.exit(1);
-  });
+  }); */
