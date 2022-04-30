@@ -41,6 +41,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "morgan": "^1.10.0",
+    "mdb-reader": "^2.2.2",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
     "swagger-ui-express": "^4.3.0",
